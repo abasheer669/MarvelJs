@@ -1,0 +1,44 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #111;
+  color: white;
+  margin: 20px;
+}
+
+h1 {
+  text-align: center;
+  color: #e62429; /* Marvel red */
+}
+
+#characters {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.card {
+  background: #222;
+  padding: 12px;
+  border-radius: 10px;
+  width: 180px;
+  text-align: center;
+  box-shadow: 0 0 10px rgba(255,0,0,0.4);
+  transition: transform 0.2s;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+.card img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.card h3 {
+  margin: 12px 0 0;
+  font-size: 18px;
+}
